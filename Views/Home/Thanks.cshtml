@@ -1,0 +1,9 @@
+@model partyRsvp.Models.GuestResponse
+@{
+  ViewData["Title"] = "Thank you!";
+}
+
+<div>
+  <h1>Thanks, @Model.FullName()!</h1>
+  <p class="lead">If we need you to bring anything we will email you at @Model.Email</p>
+</div>

@@ -1,0 +1,13 @@
+﻿@{
+    ViewData["Title"] = "Welcome!";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @{
+        string path = "~/Images/party.png";
+    }
+    <img src="@Url.Content(path)" alt="Image" />
+    <p>Click the RSVP link above or below to get started!</a>.</p>
+    <a class="nav-link text-info" asp-area="" asp-controller="Home" asp-action="RSVP">RSVP</a>
+</div>
